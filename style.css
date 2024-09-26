@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/background-img.avif);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+
+}
+header{
+    display: flex;
+}
+
+.second-nav{
+    background-color: #474762;
+    /* color: #4c4cf0; */
+    /* color: #fff; */
+}
+.navhome{
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.navbar-nav .nav-link{
+    /* color: #6a6aef; */
+    color: #fff;
+}
+.dropdown-menu li{
+    background-color: #6a6aef;
+}
+
+/*--------------- second navbar----------------------- */
+
+.second-nav-section{
+    background-color: #474762;
+}
+.second-nav-section .navbar-brand{
+    color: #6a6aef;
+}
+
+/* .navbar-icons{
+    margin-left: 450px;
+    font-size: 20px;
+    color: #4c4cf0;
+} */
+
+
+/*------------------ hero section -----------------------*/
+.carousel-inner{
+    position: relative;
+    width: 100%;
+}
+
+
+.carousel-item{
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-right: -100%;
+
+}
+.carousel-item img{
+    height: 100vh;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #836c02f5;
+}
+.carousel-caption h5{
+    font-size: 100px;
+   
+}
+.carousel-caption h2{
+    font-size: 20px;
+}
+
+
+/*------------------- popular section------------------ */
+.packages .package-heading{
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.packages .card{
+    background: transparent;
+    -webkit-box-shadow: 1px -1px 8px -1px rgba(0,0,0,0.69);
+-moz-box-shadow: 1px -1px 8px -1px rgba(0,0,0,0.69);
+box-shadow: 1px -1px 8px -1px rgba(0,0,0,0.69);
+transition: transform .5s;
+
+}
+
+.packages .card:hover{
+    transform: scale(1.1);
+}
+
+.card-body .btn{
+    background-color: #FABC3F;
+    padding: 5px 35px;
+    transition: background-color ease 0.8s;
+}
+.card-body .btn:hover{
+    background-color: black;
+    color: #fff;
+}
+
+
+
+/* -------------------about section -------------------*/
+.about-section{
+    margin-top: 30px;
+}
+
+
+
+
+/*----------------------- enquire section-------------------- */
+.enquire-section h2{
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
